@@ -5,7 +5,7 @@ import Header from './Header';
 class TodoContainer extends React.Component {
 
   state = {
-    todo: [
+    todos: [
       {
         id: 1,
         title: "Setup development environment",
@@ -26,7 +26,7 @@ class TodoContainer extends React.Component {
 
   handleChange = (id) => {
     this.setState(prevState => ({
-      todos : prevState.todo.map(todo => {
+      todos : prevState.todos.map(todo => {
         if (todo.id === id) {
           return {
             ...todo,
@@ -42,7 +42,7 @@ class TodoContainer extends React.Component {
     return (
       <div>
         <Header />
-        <TodosList todos={this.state.todo} handleChangeProps={this.handleChange}/>
+        <TodosList todos={this.state.todos} handleChangeProps={this.handleChange}/>
       </div>
     )
   }
