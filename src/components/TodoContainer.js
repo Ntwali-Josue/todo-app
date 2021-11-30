@@ -4,6 +4,9 @@ import { v4 as uuidv4 } from "uuid";
 import TodosList from "./TodosList";
 import Header from "./Header";
 import InputTodo from "./InputTodo";
+import About from "../pages/About";
+import NotMatch from "../pages/NotMatch";
+import Navbar from "./Navbar";
 
 class TodoContainer extends React.Component {
   state = {
@@ -70,6 +73,9 @@ class TodoContainer extends React.Component {
 
   render() {
     return (
+      <>
+      <Navbar />
+      <Switch>
       <Route exact path="/">
         <div className="container">
           <div className="inner">
@@ -79,11 +85,18 @@ class TodoContainer extends React.Component {
               todos={this.state.todos}
               handleChangeProps={this.handleChange}
               deleteTodoProps={this.delTodo}
-              setUpdate={this.setUpdate}
-            />
+              setUpdate={this.setUpdate} />
           </div>
         </div>
       </Route>
+      <Route path="/about">
+          <About />
+      </Route>
+      <Route path="*">
+          <NotMatch />
+        </Route>
+      </Switch>
+      </>
     );
   }
 }
