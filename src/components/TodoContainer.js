@@ -89,7 +89,7 @@ class TodoContainer extends React.Component {
           </div>
         </div>
       </Route>
-      <Route path="/about">
+      <Route path="/todo-app/about">
           <About />
       </Route>
       <Route path="*">

@@ -4,12 +4,12 @@ import { NavLink } from "react-router-dom";
 const links = [
   {
     id: 1,
-    path: "/",
+    path: "/todo-app",
     text: "Home",
   },
   {
     id: 2,
-    path: "/about",
+    path: "/todo-app/about",
     text: "About",
   },
 ]
