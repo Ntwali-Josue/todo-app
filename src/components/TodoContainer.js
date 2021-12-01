@@ -76,7 +76,7 @@ class TodoContainer extends React.Component {
       <>
       <Navbar />
       <Switch>
-      <Route exact path="/">
+      <Route exact path="/todo-app">
         <div className="container">
           <div className="inner">
             <Header />
