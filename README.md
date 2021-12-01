@@ -14,10 +14,10 @@
 
 ## Live Demo 
 
-<!-- [Live Demo Link](https://ntwali-josue.github.io/maths-magician) -->
+[Live Demo Link](https://ntwali-josue.github.io/todo-app)
 
 ## Getting Started 
-<!-- **To get started with the project, you can use the [Live Demo Link](https://ntwali-josue.github.io/maths-magician/) to access the website and interact with the features.** -->
+**To get started with the project, you can use the [Live Demo Link]https://ntwali-josue.github.io/todo-app/) to access the website and interact with the features.**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -26,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 - `Git` installed.
 
 ### Setup 🔂 
-- Clone this repository by running `git clone https://github.com/Ntwali-Josue/react-todo-app.git` in your terminal.
+- Clone this repository by running `git clone https://github.com/Ntwali-Josue/todo-app.git` in your terminal.
 
 ### Install ⚙️
 - Run `npm install` in your terminal to install the dependencies.
