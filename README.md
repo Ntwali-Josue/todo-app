@@ -4,7 +4,7 @@
 
 > This project is a webapp which helps the user to list his/her tasks and update them by deleting or editing them. 
 
-<!-- ![screenshot](https://user-images.githubusercontent.com/58233753/133434087-cb4dcf0b-3c51-4cf9-85e5-f5eb74d2dde4.png) -->
+![screenshot](https://user-images.githubusercontent.com/58233753/144214544-7a7834f4-2d91-465d-bb78-53aded19c888.png)
 
 ## Built With 
 
